@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Hi from './hi.js';
+// import Hi from './hi.js';
 
 // function hi ({name}) {
 //     return "function1";
@@ -26,7 +26,9 @@ import Hi from './hi.js';
 function App({name,age,idd}) {
 
     return <div>
-    Hello World from App.js  {name} {age} {idd} <Hi firstName = {name}></Hi>  
+    Hello World From {name} age <strong>{age} </strong>
+    {5+10}
+     
     </div>
 
 }

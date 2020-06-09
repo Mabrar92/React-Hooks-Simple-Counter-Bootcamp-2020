@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
-    Hello world from Index.js
+    <h1 className='background_color'>
+   Bootcamp 2020 class 3 </h1>
     <br/>
+    <ul>
+    Hello <strong>Abrar  whitespace check</strong>
+    <p>..  ...   <b>....</b>... .  .   .    .     .      .       .</p>
+    { 2+32+4
+    }
+    </ul>
+    
     <App name = "Abrar" age = {28} idd = "a4"  />
   </div>,
   document.getElementById('root')
