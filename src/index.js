@@ -5,9 +5,15 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div>Hello world From Abrar </div>,
+  <div>
+    Hello world from Index.js
+    <br/>
+    <App name = "Abrar" age = {28} idd = "a4"  />
+  </div>,
   document.getElementById('root')
 );
+/*  
+React.createElement('div',null,"hello world from creat element_div",React.createElement('span',null,"hello world from span_createlement"))*/
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
