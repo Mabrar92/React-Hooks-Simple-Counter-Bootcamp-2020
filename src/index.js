@@ -5,8 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div>
-    <h1 className='background_color'>
+<div>
+
+        <App />
+    {/* <h1 className='background_color'>
    Bootcamp 2020 class 3 </h1>
     <br/>
     <ul>
@@ -14,10 +16,9 @@ ReactDOM.render(
     <p>..  ...   <b>....</b>... .  .   .    .     .      .       .</p>
     { 2+32+4
     }
-    </ul>
+  </ul> */}
     
-    <App name = "Abrar" age = {28} idd = "a4"  />
-  </div>,
+    </div>,
   document.getElementById('root')
 );
 /*  

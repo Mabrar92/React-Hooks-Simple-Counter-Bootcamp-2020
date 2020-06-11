@@ -23,14 +23,22 @@ import './App.css';
 // fun = ({name}) => name
 
 
-function App({name,age,idd}) {
+function App() {
 
-    return <div>
-    Hello World From {name} age <strong>{age} </strong>
-    {5+10}
-     
-    </div>
+   let [count, setCount] = React.useState(0);
+   let [isLit, setLit] = React.useState(true);
 
+
+   return <div className={`body ${isLit? "":"Darkmode"}` }>
+   <h3> Light Mode Theme </h3>
+   <h5>Counter Value : {count}</h5>
+<h6>The Theme is {isLit ? "Light Mode" : "Dark Mode"}</h6>
+
+   <button onClick = {() => {return setCount(++count);}}>Increment</button>
+   <button onClick = {()=>{return setLit(!isLit)}}>TOggle Theme</button>
+ 
+
+   </div>
 }
 
 export default App;
