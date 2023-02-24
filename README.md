@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `Simple Counter Assignment`
+### `Simple Counter Assignment using Hooks`
 
 Open [Simple Counter based on React](reactcodee.surge.sh) to view it in the browser.
 
